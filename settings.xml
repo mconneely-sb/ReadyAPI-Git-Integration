@@ -3,6 +3,7 @@
   <con:description>Demonstrates the use of OAuth 2.0 authentication when logging in to web services.</con:description>
   <con:settings>
     <con:setting id="ProjectSettings@shadowPassword"/>
+    <con:setting id="7d1441f9-9de0-4723-9e80-4c99b2fd5a76fileName">Authentication-Sample-Project-readyapi-project</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:requirements/>
@@ -43,6 +44,7 @@
     <con:oAuth2Profile>
       <con:name>Google Account - Browser client</con:name>
       <con:type>OAuth 2.0</con:type>
+      <con:accessTokenStatus>ENTERED_MANUALLY</con:accessTokenStatus>
       <con:accessTokenStartingStatus>ENTERED_MANUALLY</con:accessTokenStartingStatus>
       <con:clientID>669184148999-ucq8m5akbcin8ni253girkijr9vgniii.apps.googleusercontent.com</con:clientID>
       <con:clientSecret/>

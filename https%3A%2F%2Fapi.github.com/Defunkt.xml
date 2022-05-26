@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Defunkt" path="/users/mconneely-sb" id="77d4f89f-9cd5-460b-be83-51cfb9e566c5" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="77d4f89f-9cd5-460b-be83-51cfb9e566c5fileName">Defunkt</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Defunkt" id="f2b7ae20-d4fb-4a55-a002-d8c98136d5e6" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:def="https://api.github.com/users/defunkt">def:Response</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="042da59f-3085-4993-b249-2289fefc21af" mediaType="application/json" postQueryString="false">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://api.github.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://api.github.com/users/mconneely-sb</con:originalUri>
+      <con:credentials>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>
