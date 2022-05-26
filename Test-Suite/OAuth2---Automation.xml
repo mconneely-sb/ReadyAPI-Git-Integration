@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="3fa3529e-505f-40d4-913f-94c64e77c1fd" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OAuth2 - Automation" searchProperties="true" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="3fa3529e-505f-40d4-913f-94c64e77c1fdfileName">OAuth2---Automation</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="restrequest" name="Lists - OAuth2" id="47f22fd2-ba9d-4703-89f2-afd4a81c0dbc">
+    <con:settings/>
+    <con:config service="OAuth2 - Automation" methodName="Lists" resourcePath="/tasks/v1/users/@me/lists" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Lists - OAuth2" id="70a693e8-0dd2-4b57-b807-cd1a612a5654" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>https://www.googleapis.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://www.googleapis.com/tasks/v1/users/@me/lists</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>Google Account - Automation</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" wadlVersion="http://wadl.dev.java.net/2009/02" name="OAuth2 - Browser client" type="rest" id="c72c9343-812d-4ffd-b572-19d64cf2b60e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:description>https://www.googleapis.com</con:description>
+  <con:settings>
+    <con:setting id="c72c9343-812d-4ffd-b572-19d64cf2b60efileName">OAuth2---Browser-client</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:endpoints>
+    <con:endpoint>https://www.googleapis.com</con:endpoint>
+  </con:endpoints>
+</con:interface>

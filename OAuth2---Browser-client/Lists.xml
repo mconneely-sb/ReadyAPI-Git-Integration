@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Lists" path="/tasks/v1/users/@me/lists" id="7eb9290f-7967-42b6-96d1-80265687b588" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="7eb9290f-7967-42b6-96d1-80265687b588fileName">Lists</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Lists" method="GET" id="c82e8d8c-3672-4936-b481-cd1e61480008">
+    <con:settings/>
+    <con:parameters/>
+    <con:representation type="FAULT">
+      <con:mediaType>application/json; charset=UTF-8</con:mediaType>
+      <con:status>401</con:status>
+      <con:params/>
+      <con:element xmlns:lis="https://www.googleapis.com/tasks/v1/users/@me/lists">lis:Fault</con:element>
+    </con:representation>
+    <con:representation type="RESPONSE">
+      <con:mediaType>application/json; charset=UTF-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element xmlns:lis="https://www.googleapis.com/tasks/v1/users/@me/lists">lis:Response</con:element>
+    </con:representation>
+    <con:request name="View Task List" mediaType="application/json" id="5568bb6d-5095-497b-88b5-47b990b30b6d">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:encoding/>
+      <con:endpoint>https://www.googleapis.com</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://www.googleapis.com/tasks/v1/users/@me/lists</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>Google Account - Browser client</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:jmsPropertyConfig/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="c6a0f1fe-334a-4a0f-9f6a-37f3c50c6fd6" wadlVersion="http://wadl.dev.java.net/2009/02" name="OAuth2 - Automation" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c6a0f1fe-334a-4a0f-9f6a-37f3c50c6fd6fileName">OAuth2---Automation</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:endpoints>
+    <con:endpoint>https://www.googleapis.com</con:endpoint>
+  </con:endpoints>
+</con:interface>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="13e2bbf8-b20a-4152-bc90-7680af5dccde" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="OAuth2 - Browser client" searchProperties="true" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="13e2bbf8-b20a-4152-bc90-7680af5dccdefileName">OAuth2---Browser-client</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="restrequest" name="Lists - OAuth2" id="11bbec19-55a9-4b4b-b4ee-153e3d500181">
+    <con:settings/>
+    <con:config service="OAuth2 - Browser client" resourcePath="/tasks/v1/users/@me/lists" methodName="Lists" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="Lists - OAuth2" mediaType="application/json" id="5568bb6d-5095-497b-88b5-47b990b30b6d">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:encoding/>
+        <con:endpoint>https://www.googleapis.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>https://www.googleapis.com/tasks/v1/users/@me/lists</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>Google Account - Browser client</con:selectedAuthProfile>
+          <con:preemptive>false</con:preemptive>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:jmsPropertyConfig/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>

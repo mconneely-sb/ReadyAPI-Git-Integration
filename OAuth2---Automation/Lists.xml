@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="Lists" path="/tasks/v1/users/@me/lists" id="52a7145c-a0eb-42a0-8c54-90a42cce1b28" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="52a7145c-a0eb-42a0-8c54-90a42cce1b28fileName">Lists</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="Lists" id="3e1bac35-5129-4331-bbc6-2df623f50cfd" method="GET">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="View Task List" id="7818f816-8942-4ad1-847a-d8b5b21ff12e" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://www.googleapis.com</con:endpoint>
+      <con:request/>
+      <con:credentials>
+        <con:selectedAuthProfile>Google Account - Automation</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

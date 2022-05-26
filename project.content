@@ -1,0 +1,8 @@
+OAuth2---Desktop-client\Lists.xml
+OAuth2---Browser-client\Lists.xml
+OAuth2---Automation\Lists.xml
+Basic-Auth\Password-ok.php.xml
+Test-Suite\Basic-Auth.xml
+Test-Suite\OAuth2---Browser-client.xml
+Test-Suite\OAuth2---Desktop-client.xml
+Test-Suite\OAuth2---Automation.xml
